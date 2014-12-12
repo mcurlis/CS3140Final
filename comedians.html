@@ -1,0 +1,110 @@
+<DOCTYPE! html>
+<html>
+<!-- Our Final Webpage is a resume posting site for employers to seek new hires. We will use ajax to retrive the xml files for the employees information. We will use our page tabs to switch inbetween different job categories -->
+<head>
+	<title>comedian.html</title>
+    <meta charset="utf-8"/>
+    <meta name="title"          content="Final Project"/>
+    <meta name="author"         content="Meric Curlis & Ben Hutchison"/>
+    <meta name="description"    content="Final Project: Job/Resume Posting Site"/>
+    <meta name="keywords"       content="Final Project-Curlis & Hutchison"/>
+    <meta name="language"       content="English"/>
+    <meta name="robots"         content=""/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body id="Body">
+    <!-- Insert title of webpage-->
+	<div id="header">Find Your Future Employee</div>
+
+    <!-- Navigation menu for the seperate pages-->
+	<div class="menu_ul">
+		<ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="horror.html">Horror</a></li>
+            <li><a href="athlete.html">Athlete</a></li>
+            <li class="currentpage"><a href="comedian.html">Comedian</a></li>
+            <li><a href="agents.html">Secret Agents</a></li>
+            <li><a href="actors.html">Washed Up Actors</a></li>
+        </ul>
+    </div>
+
+    <!-- Use an accordian widget to display information to the container div-->
+    <div id="container">
+        <div id="accordion">
+            <h3>Freddy Krueger</h3>
+            <div>
+                <img class="Photo" src="Images/Freddy.jpg">
+                <div class="Accordion-text">
+                    <p>
+                        Dream Specialist</br>
+                        Phone: 1-900-909-FRED</br>
+                        1428 Elm Street, Springwood, Ohio</br>
+                        Email: 1_2_Freddy'sComingForYou@dreams.com</br>
+                    </p>
+                </div>
+            </div>
+            <h3>Jason Voorhees</h3>
+            <div>
+                <img class="Photo" src="Images/Jason.jpg">
+                <div class="Accordion-text">
+                    <p>
+                        Camp Mascot </br>
+                        Phone: 1-900-909-CAMP </br>
+                        Blairstown, New Jersey </br>
+                        Email: Ki_Ki_Ki_Ma_Ma_Ma_@crystallake.com </br>
+                    </p>
+                </div>
+            </div>
+            <h3>Michael Myers</h3>
+            <div>
+                <img class="Photo" src="Images/Michael.jpg">
+                <div class="Accordion-text">
+                    <p>
+                        Professional Babysitter </br>
+                        Phone: 1-900-909-MIKE </br>
+                        Haddonfield, Illinois </br>
+                        Email: HE_Came_Home@halloween.com </br>
+                    </p>
+                </div>
+            </div>
+            <h3>Pinhead</h3>
+            <div>
+                <img class="Photo" src="Images/Pinhead.jpg">
+                <div class="Accordion-text">  
+                    <p>
+                        Demon to some, Angel to others </br>
+                        Phone: 1-900-909-HELL </br>
+                        London </br>
+                        Email: Solve_The_Puzzle_Box@cenobites.com </br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--<h2 class="demoHeaders">Tabs</h2>
+<div id="tabs">
+    <ul>
+        <li><a href="#tabs-1">First</a></li>
+        <li><a href="#tabs-2">Second</a></li>
+        <li><a href="#tabs-3">Third</a></li>
+    </ul>
+    <div id="tabs-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+    <div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.</div>
+    <div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.</div>
+</div>
+    </div>-->
+
+    <footer id="footer">By: Meric Curlis & Ben Hutchison</footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    
+</body>
+
+</html>
