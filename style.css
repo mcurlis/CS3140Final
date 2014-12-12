@@ -1,0 +1,74 @@
+body {
+    background-color: #0066FF;
+}
+#container h3{
+    text-align: center;
+}
+#header {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    background-color: #336600;
+    height: 60px;
+}
+#footer {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FF6600;
+    text-align: center;
+    background-color: #336600;
+    height: 30px;
+    padding-top: 15px;
+    position: relative;
+    top: 204px;
+}
+#container {
+    height: 500px;
+    border-style: solid;
+    border-color: #000000;
+    position: relative;
+    top: 2px;
+}
+.menu_ul {
+    height: 30px;
+    font-size: 16px;
+    margin: auto;
+    font-family: Tahoma, sans-serif;
+    font-weight: auto;
+    text-align: center; 
+    text-shadow: 3px 2px 3px #f4e5e3;
+}
+.menu_ul ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+.menu_ul li {
+    display: inline;
+    padding: 20px;
+}
+.menu_ul a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0f0a09;
+    padding: 8px 8px 8px 8px;
+}
+.menu_ul a:hover {
+    color: #0f0a09;
+    background-color: #FFF;
+}
+.menu_ul li.currentpage {
+    background-color: #FFF;
+    padding: 8px 8px 8px 8px;
+}
+.Accordion-text {
+    position: relative;
+    left: 35px;
+    text-align: center;
+    font-size: 12px;
+}
+.Photo {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
